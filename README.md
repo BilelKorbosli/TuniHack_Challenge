@@ -35,7 +35,7 @@ we used the mvc architucture that insure an easy work flow the mvc structure con
 Clients or visitors posts their products in the website and a machine learning bot make the process through a huge SET_DATA to decide the best step and the good price of the product and helps the administrators and companies to make the good predection .
 
 # Installation Guide
-WE provide a wiki file that guides you to install the project . ![](https://github.com/ihebBenSalem/TuniHack_Challenge/wiki)
+WE provide a wiki file that guides you to install the project . (https://github.com/ihebBenSalem/TuniHack_Challenge/wiki)
 
 
 # ScreenShots
