@@ -14,21 +14,21 @@ we used the mvc architucture that insure an easy work flow the mvc structure con
     -->CrudProduct.php <br />
 
 * Models (Define the main logic of the application )  <br /> 
-  -->Client.php
-  -->Offre.php
-  -->Product.php
+  -->Client.php <br />
+  -->Offre.php <br />
+  -->Product.php <br />
         
 
 * View (IHM) <br />-->Client -->ProductView.php<br />
       
 * assests <br />
   --> CSS <br />
-  --> JS </br />
+  --> JS <br />
   --> Page </br>
   
 * API (define libraries or SDK)
 * Include <br />
- -->config.php (params of the app)
+ -->config.php (params of the app) <br />
 
 
 # How it works
