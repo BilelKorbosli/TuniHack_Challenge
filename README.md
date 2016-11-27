@@ -34,6 +34,8 @@ we used the mvc architucture that insure an easy work flow the mvc structure con
 # How it works
 Clients or visitors posts their products in the website and a machine learning bot make the process through a huge SET_DATA to decide the best step and the good price of the product and helps the administrators and companies to make the good predection .
 
+# ScreenShots
+![](http://i.imgur.com/JhxGQ0u.png)
 
 
 
