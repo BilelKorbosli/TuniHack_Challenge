@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
+Version: 4.5.1
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+
+
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Metronic | Header Language Bar</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+            <link href="../../assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->     <link href="../../assets/pages/css/pricing.min.css" rel="stylesheet" type="text/css" />
+      
+        <link href="../../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../../assets/layouts/layout4/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../assets/layouts/layout4/css/themes/light.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../../assets/layouts/layout4/css/custom.min.css" rel="stylesheet" type="text/css" />
+         <link href="../../assets/css1.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> 
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+    <!-- END HEAD -->
+
+    <body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+        <!-- BEGIN HEADER -->
+     
+     <?php
+include '../../../index/navbar_profile.php';
+     ?>
+        <!-- END HEADER -->
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- BEGIN SIDEBAR -->
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <li class="nav-item start ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-home"></i>
+                                <span class="title">MY PRODUCTS</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item start ">
+                                    <a href="SELF_PRODUCT_VIEW.php" class="nav-link ">
+
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title"> My Product</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item start ">
+                                    
+                                    	<a class="nav-link" data-toggle="modal" href="#ADD_PRODUCT"> 
+                                        <i class="icon-bulb"></i>
+                                        <span class="title">ADD PRODUCT</span>
+                                        
+                                    </a>
+                                </li>
+                                <li class="nav-item start ">
+                                    <a class="nav-link" data-toggle="modal" href="#request"> 
+                                        <i class="icon-bulb"></i>
+                                        <span class="title">request</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                       
+                     
+                       
+                        
+                    
+                                
+                        
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEAD-->
+              <div class="col-md-12">
+                            <!-- BEGIN Portlet PORTLET-->
+                            <div class="portlet light">
+                                <div class="portlet-title">
+                                    <div class="caption font-green-sharp">
+                                        <i class="icon-share font-green-sharp"></i>
+                                        <span class="caption-subject bold uppercase"> Product</span>
+                                        <span class="caption-helper">new sells</span>
+                                    </div>
+                                   
+                                </div>
+                                <div class="portlet-body">
+                                <div class="container">
+    <div class="well well-sm">
+        <strong>Category Title</strong>
+        <div class="btn-group">
+            <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                class="glyphicon glyphicon-th"></span>Grid</a>
+        </div>
+    </div>
+  
+    <div id="products" class="row list-group">
+       
+        <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="../../assets/img/1.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                <?php echo "21$"; ?></p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="../../assets/img/1.jpg">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="../../assets/img/1.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                $21.000</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="../../assets/img/1.jpg">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="../../assets/img/3.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                $21.000</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="../../assets/img/4.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                $21.000</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="../../assets/img/2.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                $21.000</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+ <div class="modal fade" id="request" tabindex="-1" role="ADD_PRODUCT" aria-hidden="true">
+     <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+                            <!-- BEGIN Portlet PORTLET-->
+                            <div class="portlet light">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class="icon-speech"></i>
+                                        <span class="caption-subject bold uppercase"> Request</span>
+                                        <span class="caption-helper"></span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="portlet-body form"> 
+                                 <form action="../../controllers/CrudDemande" class="form-horizontal" >
+                                                    <div class="form-body">
+                                                    
+                                                          <div class="form-group">
+                                                            <label class="col-md-3 control-label">ID client</label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control input-circle" placeholder="id_clinet">
+                                                                <span class="help-block"> </span>
+                                                            </div>
+                                                        </div>
+                                                          <div class="form-group">
+                                                            <label class="col-md-3 control-label">name</label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control input-circle" placeholder="name" name="name">
+                                                                <span class="help-block"> </span>
+                                                            </div>
+                                                        </div>
+                                                          <div class="form-group">
+                                                            <label class="col-md-3 control-label">budget</label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control input-circle" placeholder="budget">
+                                                                <span class="help-block"> </span>
+                                                            </div>
+                                                        </div>
+                                                          <div class="form-group">
+                                                            <label class="col-md-3 control-label">etat</label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control input-circle" placeholder="etat">
+                                                                <span class="help-block"> </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-actions">
+                                                        <div class="row">
+                                                            <div class="col-md-offset-3 col-md-9">
+                                                                <button type="submit" class="btn btn-circle green">Submit</button>
+                                                                <button type="button" class="btn btn-circle grey-salsa btn-outline">Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <!-- END Portlet PORTLET-->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="modal fade" id="ADD_PRODUCT" tabindex="-1" role="ADD_PRODUCT" aria-hidden="true">
+     <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+              <div class="portlet light bordered" id="form_wizard_1">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class=" icon-layers font-red"></i>
+                                        <span class="caption-subject font-red bold uppercase"> Form Wizard -
+                                            <span class="step-title"> Step 1 of 4 </span>
+                                        </span>
+                                    </div>
+                                                                   </div>
+                                <div class="portlet-body form">
+                                    <form action="../../controllers/CrudOffre.php?id=1" class="form-horizontal" id="submit_form" method="POST">
+                                        <div class="form-wizard">
+                                            <div class="form-body">
+                                                <ul class="nav nav-pills nav-justified steps">
+                                                    <li class="active">
+                                                        <a href="#tab1" data-toggle="tab" class="step" aria-expanded="true">
+                                                            <span class="number"> 1 </span>
+                                                            <span class="desc">
+                                                                <i class="fa fa-check"></i> Product General </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab2" data-toggle="tab" class="step">
+                                                            <span class="number"> 2 </span>
+                                                            <span class="desc">
+                                                                <i class="fa fa-check"></i> Product details </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab3" data-toggle="tab" class="step active">
+                                                            <span class="number"> 3 </span>
+                                                            <span class="desc">
+                                                                <i class="fa fa-check"></i> Upload </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab4" data-toggle="tab" class="step">
+                                                            <span class="number"> 4 </span>
+                                                            <span class="desc">
+                                                                <i class="fa fa-check"></i> Confirm </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div id="bar" class="progress progress-striped" role="progressbar">
+                                                    <div class="progress-bar progress-bar-success" style="width: 25%;"> </div>
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="alert alert-danger display-none">
+                                                        <button class="close" data-dismiss="alert"></button> You have some form errors. Please check below. </div>
+                                                    <div class="alert alert-success display-none">
+                                                        <button class="close" data-dismiss="alert"></button> Your form validation is successful! </div>
+                                                    <div class="tab-pane active" id="tab1">
+                                                        <h3 class="block">Provide your product details</h3>
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Category
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <select name="category" class="form-control form-filter input-sm" aria-required="true" aria-describedby="productstatus-error" aria-invalid="false">
+                                                           
+                                                            <option value="Phone">Phone</option>
+                                                            <option value="Computer" >Computer</option>
+                                                            <option value="Car">Car</option>
+                                                               </select>
+                                                                <div id="form_gender_error"> </div>
+                                                            </div>
+                                                        </div>
+                                                       <div class="form-group">
+                                                            <label class="control-label col-md-3">brand
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <select name="brand" class="form-control form-filter input-sm" aria-required="true" aria-describedby="productstatus-error" aria-invalid="false">
+                                                           
+                                                            <option value="galaxy">Samsung</option>
+                                                            <option value="Huawei">Huawei</option>
+                                                            <option value="Apple">Apple</option>
+                                                               </select>
+                                                                <div id="form_gender_error"> </div>
+                                                            </div>
+                                                        </div>
+                                                         
+                                                             <div class="form-group">
+                                                            <label class="control-label col-md-3">Name
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <select name="name" class="form-control form-filter input-sm" aria-required="true" aria-describedby="productstatus-error" aria-invalid="false">
+                                                           
+                                                            <option value="S5 Mini">Samsung Galaxy S5 Mini</option>
+                                                            <option value="j2 / 4G">Samsung Galaxy J2</option>
+                                                            <option value="Samsung Galaxy J5">Samsung Galaxy J5</option>
+                                                               </select>
+                                                                <div id="form_gender_error"> </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">description
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control" name="description">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                      
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">age
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control" name="age">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">status
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <select name="status" id="status" class="form-control form-filter input-sm" aria-required="true" aria-describedby="productstatus-error" aria-invalid="false">
+                                                           
+                                                            <option value="new">new</option>
+                                                            <option value="good">good</option>
+                                                            <option value="old">old</option>
+                                                               </select>
+                                                                <div id="form_gender_error"> </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="tab-pane" id="tab2">
+                                                        <h3 class="block">price details</h3>
+                                                         
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">price
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                            <div class="col-md-4">
+                                                                <input type="text" class="form-control" name="price">
+                                                                <span class="help-block"> price </span>
+                                                            </div>
+                                                        </div>
+<div class="portlet-body" id="pirecing">
+                            <div class="pricing-content-1">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="price-column-container border-active">
+                                            <div class="price-table-head bg-blue">
+                                                <h3 class="no-margin">price min for new prodect</h3>
+                                            </div>
+                                            <div class="arrow-down border-top-blue"></div>
+                                            <div class="price-table-pricing">
+                                                <h3 id="p1">
+                                                    <span class="price-sign">$</span>24</h3>
+                                                <p></p>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="price-column-container border-active">
+                                            <div class="price-table-head bg-red">
+                                                <h3 class="no-margin">AVG price for used product</h3>
+                                            </div>
+                                            <div class="arrow-down border-top-red"></div>
+                                            <div class="price-table-pricing">
+                                                <h3 id="p2">
+                                                    <span class="price-sign">$</span>39</h3>
+                                                <p></p>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                     <div id="pulsate-regular" style="padding: 5px; outline: rgba(191, 28, 86, 0.901961) solid 2px; box-shadow: rgba(191, 28, 86, 0.901961) 0px 0px 1px; outline-offset: 2px;">
+                                        <div class="price-column-container border-active">
+                                            <div class="price-table-head bg-green">
+                                                <h3 class="no-margin">Our suggest price</h3>
+                                            </div>
+                                            <div class="arrow-down border-top-green"></div>
+                                            <div class="price-table-pricing">
+                                               
+<h3 id="p3">
+  <span class="price-sign">$</span>59</h3>
+                                                <p></p>
+                                                <div class="price-ribbon">awesome</div>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       
+                                                        
+                                                       
+
+                                                       
+                                                    </div>
+                                                    <div class="tab-pane" id="tab3">
+                                                        <h3 class="block">Provide a picture please</h3>
+                                                         <div class="form-group">
+                                                            <label class="control-label col-md-3">picture
+                                                                <span class="required" aria-required="true"> * </span>
+                                                            </label>
+                                                              <div class="col-md-9">
+                                                                <a data-target="#dude" data-toggle="modal" id="uploadsub" name="uploadsub" class="btn green"> <i class="fa fa-cog"></i>upload</a>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+
+<div class="modal fade" id="dude" tabindex="-1" role="ADD_PRODUCT" aria-hidden="true">
+                    <div class="modal-dialog ">
+                           <div class="modal-content">
+     <div class="portlet light">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class="icon-speech"></i>
+                                        <span class="caption-subject bold uppercase"> Portlet</span>
+                                        <span class="caption-helper">weekly stats...</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="portlet-body">
+                                    
+                                <input type="file" name="picture" id="picture">
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        
+                                                        </div>
+                                                        
+                                                    <div class="tab-pane" id="tab4">
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-actions">
+                                                <div class="row">
+                                                    <div class="col-md-offset-3 col-md-9">
+                                                        <a href="javascript:;" class="btn default button-previous disabled" style="display: none;">
+                                                            <i class="fa fa-angle-left"></i> Back </a>
+                                                        <a href="javascript:;suggprice();" class="btn btn-outline green button-next" > Continue
+                                                            <i class="fa fa-angle-right"></i>
+                                                        </a>
+                                                        
+                                                                 <input type="submit" class="btn green button-submit" style="display: none;" value="Submit"> 
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                                           
+                                            </div>
+                                            <!-- /.modal-content -->
+                                        </div>
+                                        <!-- /.modal-dialog -->
+                                    </div>
+
+
+
+
+
+
+
+
+                            <!-- END Portlet PORTLET-->
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    <!-- END PAGE BASE CONTENT -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+            <!-- BEGIN QUICK SIDEBAR -->
+            <a href="javascript:;" class="page-quick-sidebar-toggler">
+                <i class="icon-login"></i>
+            </a>
+           
+            <!-- END QUICK SIDEBAR -->
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div class="page-footer-inner"> 2016 &copy; Bugs_bunny.
+               
+            </div>
+            <div class="scroll-to-top">
+                <i class="icon-arrow-up"></i>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->  <script src="../../assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+            
+          <script src="../../assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/jquery-bootpag/jquery.bootpag.min.js" type="text/javascript"></script>
+        <script src="../../assets/global/plugins/holder.js" type="text/javascript"></script>
+
+
+        <script src="../../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+       <script src="../../assets/pages/scripts/ui-general.min.js" type="text/javascript"></script>
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="../../assets/pages/scripts/form-wizard.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../../assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../../assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+});</script>
+
+
+<script type="text/javascript">
+    
+
+function suggprice(){
+var data = $('#submit_form').serialize();
+             $.ajax({
+            type : 'POST',
+            url : '../../controllers/CrudOffre.php?id=2',
+            data : data,
+            beforeSend : function(){
+            
+            },
+            success : function(rep){
+             var obj = jQuery.parseJSON(rep);
+           
+             $('#p1').html("<span class='price-sign'>$</span>"+obj.min);
+             $('#p2').html("<span class='price-sign'>$</span>"+obj.avg);
+             $('#p3').html("<span class='price-sign'>$</span>"+obj.sug_price);
+             $('#p4').val(obj.sug_new);
+             
+            }
+          });
+}
+
+
+</script>
+
+
+        <!-- END THEME LAYOUT SCRIPTS -->
+    </body>
+
+</html>
