@@ -1,4 +1,5 @@
- # TuniHack Hackathon
+# TuniHack Hackathon
+
 ![](http://i.imgur.com/iNX53Be.jpg)
 # What is Ventus project ?!
 the project main idea consists in building a solution for client to profit as much as they can from data analysis and data science while we are in a sharing economy point people may want to sell their belongings in a very easy way, as FROM our hand, we analyse data over the internet as an input and we extract a prediction of the best time of selling with the best prices.Predicting the drop of prices and there raises too, and offer an Extra sell. all of that while notifying the client who want to buy a specific product in the instance by notifications and SMS 
