@@ -43,6 +43,6 @@ WE provide a wiki file that guides you to install the project . ![](https://gith
 
 # Support US
 The hackathon was a great moment to share knowledge and meets people ,the experience we got was astonishing with the new people we met ,the great network we forged and the idea sharing was really overwhelming . This only a work delivered in limited time 24H ,we believe in your support to contribute with us and building together a great tool .
-OUR Blog ![](https://nodeme.blogspot.com)
+OUR Blog (https://nodeme.blogspot.com)
 
        
