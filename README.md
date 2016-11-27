@@ -34,9 +34,15 @@ we used the mvc architucture that insure an easy work flow the mvc structure con
 # How it works
 Clients or visitors posts their products in the website and a machine learning bot make the process through a huge SET_DATA to decide the best step and the good price of the product and helps the administrators and companies to make the good predection .
 
+# Installation Guide
+WE provide a wiki file that guides you to install the project . ![](https://github.com/ihebBenSalem/TuniHack_Challenge/wiki)
+
+
 # ScreenShots
 ![](http://i.imgur.com/JhxGQ0u.png)
 
-
+# Support US
+The hackathon was a great moment to share knowledge and meets people ,the experience we got was astonishing with the new people we met ,the great network we forged and the idea sharing was really overwhelming . This only a work delivered in limited time 24H ,we believe in your support to contribute with us and building together a great tool .
+OUR Blog ![](https://nodeme.blogspot.com)
 
        
